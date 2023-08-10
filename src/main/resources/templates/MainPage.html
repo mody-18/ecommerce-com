@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header><b>Email:</b> [[${Email}]]</header>
+<form action="/customers/editFirstName" method="get">
+  <p><b>First Name:</b><br> [[${FirstName}]] <input type="submit" class="button" value="Edit"></p>
+
+</form>
+
+<form action="/customers/editLastName" method="get">
+  <p><b>Last Name:</b><br> [[${LastName}]] <input type="submit" class="button" value="Edit"></p>
+</form>
+
+<form action="/customers/editPhoneNumber" method="get">
+  <p><b>Phone Number:</b><br> [[${PhoneNumber}]] <input type="submit" class="button" value="Edit"></p>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Registration Form</title>
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+  <input type="checkbox" id="check">
+
+<!--  LOGIN  -->
+
+  <div class="login form">
+    <header>Login</header>
+    <form action="/customers/mainPage" method="post" >
+      <input type="email" name="email" placeholder="Enter your email">
+      <input type="password" name="password" placeholder="Enter your password">
+      <a th:href="@{/forgotPassword}">Forgot password?</a>
+      <input type="submit" class="button" value="Login">
+    </form>
+    <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
+    </div>
+  </div>
+
+<!--  REGISTRATION  -->
+
+  <div class="registration form">
+    <header>Signup</header>
+    <form action="/customers/signUp" method="post">
+        <input type="email" name = "email" placeholder="Email">
+        <input type="text" name = "firstName" placeholder="First Name">
+        <input type="text" name = "lastName" placeholder="Last Name">
+        <input type="password" name = "password" placeholder="Password">
+
+      <input type="submit" class="button" value="Signup">
+    </form>
+    <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

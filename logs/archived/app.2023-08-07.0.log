@@ -1,0 +1,41 @@
+2023-08-07 10:57:54,430 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.LoggerConverter@531c311e - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.modys.BuildingAWebApp.BuildingAWebAppApplication.main(BuildingAWebAppApplication.java:13)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.LoggerConverter@531c311e - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:319)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-08-07 10:58:25,683 INFO c.m.B.BuildingAWebAppApplication [main] Starting BuildingAWebAppApplication using Java 20.0.1 with PID 15956 (C:\Users\modes\OneDrive\Desktop\BuildingAWebApp\BuildingAWebApp\target\classes started by modes in C:\Users\modes\OneDrive\Desktop\BuildingAWebApp\BuildingAWebApp)
+2023-08-07 10:58:25,684 DEBUG c.m.B.BuildingAWebAppApplication [main] Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-07 10:58:25,685 INFO c.m.B.BuildingAWebAppApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-07 10:58:29,586 INFO c.m.B.BuildingAWebAppApplication [main] Started BuildingAWebAppApplication in 4.226 seconds (process running for 4.97)
+2023-08-07 11:00:52,488 INFO c.m.B.BuildingAWebAppApplication [main] Starting BuildingAWebAppApplication using Java 20.0.1 with PID 9584 (C:\Users\modes\OneDrive\Desktop\BuildingAWebApp\BuildingAWebApp\target\classes started by modes in C:\Users\modes\OneDrive\Desktop\BuildingAWebApp\BuildingAWebApp)
+2023-08-07 11:00:52,490 DEBUG c.m.B.BuildingAWebAppApplication [main] Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-07 11:00:52,491 INFO c.m.B.BuildingAWebAppApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-07 11:00:56,361 INFO c.m.B.BuildingAWebAppApplication [main] Started BuildingAWebAppApplication in 4.182 seconds (process running for 4.87)

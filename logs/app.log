@@ -1,0 +1,4 @@
+2023-08-07 11:06:48,857 INFO c.m.B.BuildingAWebAppApplication [main] Starting BuildingAWebAppApplication using Java 20.0.1 with PID 11244 (C:\Users\modes\OneDrive\Desktop\BuildingAWebApp\BuildingAWebApp\target\classes started by modes in C:\Users\modes\OneDrive\Desktop\BuildingAWebApp\BuildingAWebApp)
+2023-08-07 11:06:48,861 DEBUG c.m.B.BuildingAWebAppApplication [main] Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-07 11:06:48,861 INFO c.m.B.BuildingAWebAppApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-07 11:06:52,766 INFO c.m.B.BuildingAWebAppApplication [main] Started BuildingAWebAppApplication in 4.218 seconds (process running for 4.899)
