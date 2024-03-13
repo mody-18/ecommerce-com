@@ -16,3 +16,18 @@ If i was to improve the web application, I would make use of session ids which I
 I had so much fun learning learning these technologies, in particular JUnit & Integration testing, as it was something I particularly struggled a lot with in the beginning but was then able to overcome these challenges at a later point in my learning! 
 
 
+![Screenshot (42)](https://github.com/mody-18/ecommerce-com/assets/99497021/0118ee6b-e8a8-472f-b65b-2d8e9054dd53)
+
+![Screenshot (43)](https://github.com/mody-18/ecommerce-com/assets/99497021/015cba7f-d980-4653-be3d-6f6f4976a1dd)
+
+![Screenshot (44)](https://github.com/mody-18/ecommerce-com/assets/99497021/182bc841-1b99-4f13-a54c-de9d4f0224d3)
+
+![Screenshot (41)](https://github.com/mody-18/ecommerce-com/assets/99497021/5e394a23-2f3d-4688-933f-02901280f900)
+
+![Screenshot (45)](https://github.com/mody-18/ecommerce-com/assets/99497021/928076a0-277a-4050-b86b-6f755976ee4b)
+
+![Screenshot (46)](https://github.com/mody-18/ecommerce-com/assets/99497021/f2b1726a-362c-4b44-8c61-3886cffdb5eb)
+
+
+
+
